@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+.header{
+  background-color: violet;
+  text-align: center;
+}
+.title-row{
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+.instructions-title{
+  display: inline;
+  color: violet;
+  font-size: 40px;
+
+}
+.center{
+  width: 85%;
+  margin: 0 auto;
+
+}
+li{
+  color: violet;
+  text-align:justify;
+  padding:10px;
+  font-size:22px;
+}
+.door-row{
+  text-align: center;
+}
+#door1{
+
+}
+#door2{
+
+}
+#door3{
+
+}
+.door-frame{
+  cursor:pointer;
+  padding: 10px;
+}
+.start-row{
+  margin: auto;
+width: 120px;
+height: 43px;
+background-color: violet;
+padding-top: 18px;
+font-size: 18px;
+text-align: center;
+color: black;
+margin-bottom: 21px;
+cursor: pointer;
+}
+hr{
+  border-top: 1px solid violet;
+  width:70%;
+
+}
+
+
+@media only screen and (min-width: 992px) {
+  .center {
+    max-width:40%;
+  }
+}
